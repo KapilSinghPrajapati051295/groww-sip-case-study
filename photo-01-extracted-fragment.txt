@@ -1,0 +1,32 @@
+deck builder, README, RUNBOOK, and an AI Evidence Log (golden set + agreement + corrections).
+- Both web apps are **Groww-themed** (green 🟩#00D09C) with a **light/dark theme toggle**.
+
+---
+
+## 2. FULL FILE TREE
+
+### Source files (embedded in section 5, recreate these)
+```
+README.md
+RUNBOOK.md
+deck/build_deck.py
+discovery-engine/README.md
+discovery-engine/evidence-log/AI-Evidence-Log.md
+discovery-engine/evidence-log/corrections.json
+discovery-engine/evidence-log/golden_set.json
+discovery-engine/pipeline/analyze.py
+discovery-engine/pipeline/clean.py
+discovery-engine/pipeline/collect.py
+discovery-engine/pipeline/export.py
+discovery-engine/pipeline/generate_corpus.py
+discovery-engine/pipeline/judge.py
+discovery-engine/pipeline/run_pipeline.py
+discovery-engine/pipeline/tag.py
+discovery-engine/pipeline/taxonomy.py
+discovery-engine/web/app.js
+discovery-engine/web/index.html
+discovery-engine/web/styles.css
+metric-tree/metric-tree.md
+metrics/success-metrics.md
+mvp/README.md
+mvp/evals/golden.js
